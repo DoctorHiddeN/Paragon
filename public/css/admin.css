@@ -1,0 +1,443 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Vazir.eot');
+  src: url('/fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+  url('/fonts/Vazir.woff2') format('woff2'), 
+  url('/fonts/Vazir.woff') format('woff'), 
+  url('/fonts/Vazir.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/Vazir-Bold.eot');
+  src: url('/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('/fonts/Vazir-Bold.woff2') format('woff2'), 
+  url('/fonts/Vazir-Bold.woff') format('woff'), 
+  url('/fonts/Vazir-Bold.ttf') format('truetype');
+ }
+body{
+  background-color: #afc3b578
+}
+.paragon-admin-container{
+  display: flex;
+  justify-content: center;
+}
+.nav-bar-container{
+    color:rgb(255, 255, 255);
+    background: linear-gradient( 
+    135deg, rgb(38, 47, 65), black 100%);
+    height: 45px;
+}
+ul{
+    list-style-type: none;
+}
+.article-container{
+    position: relative;
+    border: 2px #6a5f5f solid;
+    margin-top: 5%;
+    border-radius: 5px;
+    text-align: center;
+    width: 14%;
+    margin-left: 1%;
+    box-shadow: 5px 6px 16px 0px;
+    height: 150px;
+}
+h1{
+    text-align: center;
+}
+.ArticAdd{
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.head-tit{
+    margin-top: 2%;
+    font-family: cursive;
+}
+.alert{
+    float: right;
+    opacity: 50%;
+    width: 50%;
+    margin-right: 25%;
+    margin-top: 4%;
+}
+textarea
+ {
+    resize: none;
+  }
+
+.nav-bar-container form{
+    width: 8%;
+}
+.nav-bar-container h1{
+    float: right;
+}
+/*Article update layout*/
+.update-container{
+    height: 500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    margin-top:3%;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    margin-top:1%;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .upbtn{
+    margin-top: 1%
+  }
+  .thumb-container{
+    display: inline-block;
+    margin-left: 2%;
+  }
+  .thumb-container img{
+    display: block;
+  }
+  .thumbnail-but{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+  }
+  .thum-opt h6{
+    font-size: 10px;
+    margin-top:5%;
+  }
+  .categor{
+    opacity:70%;
+    width: 22%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.categor #car{
+  margin-left:4%;
+}
+.my-button{
+  margin:1%;
+}
+.main-container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+  height: 80px;
+  margin-top: 1%;
+  padding:10px
+}
+.admin-sidebar{
+  width: 19.1%;
+  height: 100%;
+  background-color: #0f0d1b;
+  color: white;
+  padding: 9px;
+  font-family: 'Vazir';
+  display: block;
+  min-width: 280px;
+  /* overflow: hidden; */
+  position: sticky;
+  z-index: 10;
+  float: left;
+  min-width: 293px;
+}
+.side-head{
+  height: 62px;
+  background-color: #1b1b27;
+  padding: 0px;
+  display: block;
+  box-shadow: inset 0px 1px 9px
+}
+.side-head h6{
+  display: inline-block;
+}
+.brand-img{width: 49%;height: 100%;float: right;display: inline-block;}
+.side-head img{
+  display: inline-block;
+  width: 50%;
+  height: 95%;
+  float: right;
+  margin-right: 19%;
+}
+.user-img #avatar{
+  border-radius: 50%;
+  height: 100%;
+}
+.brand-name{
+  width: 51%;
+  display: inline-block;
+  height: 100%;
+  padding: 19px;
+}
+.side-body{
+  height: 92%;
+}
+.user-status{
+  height: 200px;
+  margin-top: 4%;
+}
+.user-img{
+  width: 45%;
+  height: 55%;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 63px;
+}
+.user-status img{width:100%;border-radius: 20px;}
+.userhimself{
+  display: inline-block;
+  width: 55%;
+  height: 80%;
+  padding: 16px;
+  float: right;
+}
+.userhimself h6{
+  text-align: center;
+}
+.user-state{
+  width: 100%;
+  height: 30px;
+}
+.user-state img{
+  width: 12px;
+  margin-left: 5%;
+  margin-right: 6%;
+}
+.user-state #online{
+  margin-left: 6%;
+}
+.browse{
+  height: 22%;
+  padding: 8px;
+  text-align: right;
+}
+.browse img{
+  float: left;
+  width: 8%;
+  margin-left: 8%;
+}
+.browse small{
+float: right;
+width: 46%;
+margin-right: 13%;
+}
+.side-menu{
+  width: 100%;
+  height: 71%;
+  text-align: right;
+  padding: 12px;
+}
+.menu-items{
+  height: 40px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  padding: 6px;
+  display: block;
+}
+.side-menu a{
+  color: #e5e2e2;
+  text-decoration: none;
+  width: 100%;
+}
+
+.side-menu ul{
+  padding: 0;
+  margin: 0;
+  background-color: #1b1b27;
+}
+.menu-items:hover {
+  text-decoration: none;
+  background-color: #5f8d9a;
+}
+.side-menu #showdown{
+  float: left;
+}
+.side-drop li{
+  height: 35px;
+}
+.side-drop-show{
+  padding: 7px;
+  display: none;
+}
+.side-drop-show li{
+  height: 35px;
+  padding:5px;
+  font-size: 12px;
+}
+.side-drop-show li:hover{
+  background-color: #5f8d9a ;}
+  .side-drop-show a:hover{
+    text-decoration: none;
+  }
+  .menu-items-single{
+    height: 40px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    padding: 6px;
+    display: block;
+  }
+  .menu-items-single:hover{
+    background-color: #5f8d9a ;}
+    .menu-items-single a:hover{
+      text-decoration: none;
+    }
+  .side-menu #logout{
+    margin-top:64%;
+  }
+  .admin-main{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+    }
+  .ad_top_nav{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height:7%;
+    display: inline-block;
+    padding-left: 304px;
+  }
+.right-top-nav{
+  float: right;
+  height: 100%;
+  width: 50%;
+  text-align: right;
+  margin-right: 1%;
+  padding:5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.right-top-nav img{
+  padding: 3px;
+}
+.right-top-nav a :hover{
+  text-decoration: none;
+}
+.right-top-nav #setting{
+  border-right:2px solid rgba(102, 102, 102, 0.527);
+  padding:5px
+}
+.right-top-nav #profile{
+  padding:5px;
+}
+.right-top-nav h6{
+  padding: 8px;
+}
+.right-top-nav #userimg{
+  margin-right: 5%;
+}
+.right-top-nav #avatar{
+  height: 100%;
+    border-radius: 50%;
+}
+.left-top-nav{
+  height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+}
+.left-top-nav input:focus-visible{
+  border:0 white;
+  outline: none;
+}
+.left-top-nav form{
+  margin-left: 2%;
+}
+.left-top-nav img:hover{
+  cursor: pointer;
+}
+.user-container{
+  height: 100%;
+  padding-left: 293px;
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+}
+.user-container-contents{
+  width: 25.6%;
+  height: 445px;
+  margin-left: 5%;
+  margin-right: 3%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 0px #0000003b;
+  background-color: #ccf1d5;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Vazir';
+}
+.user-container-contents h6{
+  font-weight: bold;
+}
+.admin-main h1{
+  margin-left: 20%;
+    margin-top: 2%;
+    color: #4b564bc2;
+    font-size: 25px;
+    font-family: 'Vazir';
+}
+.table #radif{
+  border-bottom: 2px solid #707070;
+}
+.table #column{
+  border-top: 1.5px solid #6f6d6d;
+  border-bottom: 1.5px solid #6f6d6d;
+}
+.borderless td, .borderless th {
+  border: none;
+}
+.borderless tbody{
+  text-align: right;
+}
+.us-alert{
+  float: right;
+    opacity: 50%;
+    width: 100%;
+     margin-right: 0%;
+   margin-top: 0%;
+    text-align: center;
+    padding-left: 20%;
+}
+/* .user-container-contents #tarefe{
+  text-align: center;
+  font-family: 'Vazir';
+} */
